@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="./styl.css" ?>
+<www>
+    <naglowek>
+        <tytul>Internet Technology - 2021/2022</tytul>
+    </naglowek>
+    <podnaglowek>
+        Lab01 - Język HTML i arkusze styli CSS
+    </podnaglowek>
+    <lista>
+        <element>Ćwiczenie 1 <link>http://pascal.fis.agh.edu.pl/~9rewis/labs/01/cwiczenie1.html</link>&#128279;</element>
+        <element>Ćwiczenie 2 <link>http://pascal.fis.agh.edu.pl/~9rewis/labs/01/cwiczenie2.html</link> &#128279;</element>
+        <element>Ćwiczenie 3 <link>http://pascal.fis.agh.edu.pl/~9rewis/labs/01/cwiczenie3.html</link>&#128279;</element>
+        <element>Ćwiczenie 4 <link>http://pascal.fis.agh.edu.pl/~9rewis/labs/01/cwiczenie4.html</link>&#128279;</element>
+        <element>Ćwiczenie 5 <link>http://pascal.fis.agh.edu.pl/~9rewis/labs/01/cwiczenie5.html</link>&#128279;</element>
+             
+    </lista>
+    <podnaglowek>
+        Lab02 - Język XML
+    </podnaglowek>
+    <lista>
+         <element>Zadanie 1 <link>http://pascal.fis.agh.edu.pl/~9rewis/labs/index.xml</link> &#128279;</element>
+    </lista>
+    <podnaglowek>
+        Lab03 - PaaS - technologia IBM Cloud
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+    <podnaglowek>
+        Lab04 - Transformacja XSLT
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+    <podnaglowek>
+        Lab05 - Technologia CGI
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+    <podnaglowek>
+        Lab06 - Język JavaScript (ECMAScript) - klient
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+    <podnaglowek>
+        Lab07 - AJAX
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+    <podnaglowek>
+        Lab08 - AJAX - realizacja projektu
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+    <podnaglowek>
+        Lab09 - Język PHP, wprowadzenie
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+    <podnaglowek>
+        Lab10 - Wzorzec MVC - relacyjna baza danych
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+     <podnaglowek>
+        Lab11 - WebService i baza MongoDB
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+     <podnaglowek>
+        Lab12 - Styl RESTful
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+     <podnaglowek>
+        Lab13 - Język JavaScript - serwer node.js
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+     <podnaglowek>
+        Lab14 - Język JavaScript - serwer node.js (cd.)
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+     <podnaglowek>
+        Lab15 - RESTful - realizacja projektu
+    </podnaglowek>
+    <lista>
+         <element>TBC &#128279;</element>
+    </lista>
+
+
+</www>

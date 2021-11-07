@@ -1,0 +1,65 @@
+<!doctype html>
+
+
+<html lang = "pl">
+    
+    <meta charset="utf-8"/>
+       <title>Zadanie 4</title>
+   
+ <style>
+       body{background: black;font-style: normal; color:darkturquoise }
+       .p {text-decoration-line: underline}
+       span{color: yellow}
+       table { margin-left: auto; margin-right: auto;border-collapse:collapse; width: 40% }
+       table, td, th { border:1px solid black; color: blue }
+       thead { background-color: aqua; font-weight:normal;}
+       tbody { background-color: aquamarine;  }
+       tfoot { background-color: #FF7F7F; font-weight:bold; }
+       legend{color: blueviolet}
+       fieldset{font-style: italic}
+       ol.c {list-style-type: upper-roman; color: darkturquoise}
+       a{color: darkturquoise }
+
+  </style>
+  <body>
+      <p>Opracować prosty dokument zawierający nawigację wewnętrzną. W ramach skryptu należy wykorzystać co najmniej następujące elementy &lt;p&gt;, &lt;span&gt;, &lt;fieldset&gt;, &lt;legend&gt; i &lt;table&gt;. Do formy prezentacyjnej należy wykorzystać style CSS umieszczone w nagłówku.</p>
+      
+       <ol class="c">
+       <li><a href ="#1">Element &lt;p&gt;</a></li>	
+       <li><a href ="#2">Element &lt;span&gt;</a></li>
+       <li><a href ="#3">Elementy &lt;fieldset&gt; i &lt;legend&gt;</a></li>
+       <li><a href ="#4">Element &lt;table&gt;</a></li>   
+       </ol>
+
+      <a id="1"></a>
+      <p class ="p">Element &lt;p&gt; tworzy paragraf wewnątrz dokumentu.</p>
+       <a id="2"></a>
+      <span>
+         Element &lt;span&gt; jest podstawowym wbudowanym kontenerem dla frazowania treści, który z natury nie reprezentuje niczego. Może być używany do grupowania tekstu w celu stylizacji (używa atrybutu class lub id), lub z powodu posiadania takich samych atrybutów, takich jak lang. Powinien być używany tylko wtedy, gdy nie ma zastosowania żaden inny element semantyczny. span jest bardzo podobny do elementu &lt;div&gt;, lecz &lt;div&gt; jest elementem blokowym a &lt;span&gt; elementem liniowym.
+          </span>
+      <p></p>
+    
+       <a id="3"></a>
+      <fieldset>
+        
+	   <legend>Legenda(&lt;legend&gt;) - podpis obramowania </legend>
+	   <p>Polecenie &lt;fieldset&gt; pozwala pogrupować tematycznie pewne elementy - wprowadza obramowanie. Zawiera zwykle legendę &lt;legend&gt;. Najczęściej stosowane jest razem z formularzami (&lt;form&gt;).</p>
+      </fieldset>
+       <a id="4"></a>
+       <p>Tabela:
+      </p>
+      <table>
+          <thead>  <tr><th>Lp.</th><th>Nazwisko</th><th>Wartość zamówienia</th></tr></thead>
+        <tbody> <tr><td>1</td><td>Abacki</td><td>10</td></tr>
+                <tr><td>2</td><td>Babacki</td><td>20</td></tr>
+                <tr><td>3</td><td>Cabacka</td><td>30</td></tr>
+                <tr><td>4</td><td>Dadacki</td><td>40</td></tr>
+        </tbody>
+        <tfoot>
+            <tr><td></td><td>Suma rachunku:</td><td>100</td></tr>    
+        </tfoot>
+          
+          
+</table>
+  </body>
+</html>
