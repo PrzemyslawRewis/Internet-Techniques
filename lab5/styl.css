@@ -1,0 +1,117 @@
+h2 
+{
+  font-size: 3em;
+  text-align: center;
+}
+nav
+{
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+nav div 
+{ 
+  padding-left: 145px;
+  width: 700px;
+}
+
+nav span 
+{
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+nav a 
+{
+  padding: 5px 10px;
+  font-size: 1.1em;
+  background-color: rgb(239, 230, 247);;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+nav a:hover 
+{
+  transform: scale(1.1);
+  background-color: rgb(240, 240, 240);
+}
+
+table 
+{ 
+  border-width: 2px;
+  border-collapse: collapse;
+  border-style: solid;
+  border-color: blue;
+  width: 1024px;
+  margin: 20px auto;
+  font-size: 1.1em;
+}
+
+thead tr th 
+{ 
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  background-color: rgb(144, 251, 252);
+  color: black;
+  text-align:center;
+}
+
+tbody 
+{ 
+  text-align: left;
+}
+
+th 
+{
+  padding: 5px;
+}
+
+tbody th 
+{
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  background-color: rgb(166, 234, 153);
+  text-align: left;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+td 
+{
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+tr:not(:last-child) 
+{
+  border-bottom: 1px solid rgb(240, 248, 252);;
+}
+
+
+tr:nth-child(odd) 
+{
+  background-color: rgb(239, 230, 247);
+}
+
+
+
+
+
+
+
+
+
