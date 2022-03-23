@@ -1,0 +1,22 @@
+body
+{
+	padding-top: 20px; 
+	background-color: rgba(163, 173, 228, 0.932);
+	text-align: left;
+    padding-left: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+div
+{
+    padding-top: 5px;
+
+}
+.wynik
+{
+    position: relative;
+    right: 0px; bottom: 0px;
+    padding-right: 20px;
+    text-align: right;
+    
+}

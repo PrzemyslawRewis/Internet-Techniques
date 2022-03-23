@@ -1,0 +1,65 @@
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    background-size: contain;
+    font-family: Consolas;
+    background-attachment: fixed;
+    background-size: 100%;
+    background: rgb(108, 215, 214);
+
+}
+
+header {
+    position: fixed;
+    padding: 15px;
+    left:0px;
+    top:0px;
+    width: 100%;
+    text-align: center;
+    background: rgb(90, 95, 126);
+    color: white;
+    font-size: 30px;
+}
+
+input {
+
+  padding: 5px 10px;
+  font-size: 10px;
+  background-color: rgb(239, 230, 247);;
+  border: none;
+  color: black;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  cursor: pointer;
+
+}
+
+h1 {
+    color:black;
+}
+
+footer {
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    left: 0px;
+    bottom: 0px;
+    right: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 7px;
+    background: rgb(90, 95, 126);
+    color: rgb(239, 230, 247);
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+}

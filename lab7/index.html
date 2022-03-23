@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang=pl>
+<head>
+<title>AJAX</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" href="./index.css">
+<script src="ajax.js"></script>
+</head>
+<body>
+<fieldset>
+    <legend> Quiz: Którą porę roku lubisz? </legend>
+<form name="form1" >
+    <input type="radio" id="Zima" name="season" value="0" checked>
+    <label for="Zima">Zima</label>
+<br>
+    <input type="radio" id="Wiosna" name="season" value="0">
+    <label for="Wiosna">Wiosna</label>
+<br>
+    <input type="radio" id="Lato" name="season" value="0">
+    <label for="Lato">Lato</label>
+<br>
+    <input type="radio" id="Jesien" name="season" value="0" >
+    <label for="Jesien">Jesień</label>
+<br>
+<input type="submit" onclick="send()" />
+<button onclick = "wynik()" type="button"> Pokaz wykres</button>
+</form>
+
+<div class="wynik" id ="myContent">
+    <canvas id='canvas' width="400" height="300">
+        canvas
+    </canvas>    
+<div>Zima&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wiosna&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lato&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jesień&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+</div>
+</fieldset>
+</body>
+</html>

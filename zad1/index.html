@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+   <head>
+      <meta charset="utf-8">
+      <title>Zad2 PR</title>
+      <link rel="StyleSheet" href="zad2.css" type="text/css">
+      <script src="rest.js"></script>
+   </head>
+   <body>
+    <header>
+    Aplikacja w stylu REST obsługująca księgozbiór w minibiblioteczce
+    </header>       
+       
+     <div style="text-align:center" >
+        <br/>
+        <br/>
+        <br/>
+       <form action="#">
+          <table><tr>
+          <td><input type="button" value="Dodanie kategorii" onclick="_ins_form_k()"/></td>
+          <td><input type="button" value="Lista kategorii" onclick="_list_k()"/></td>
+          <td><input type="button" value="Dodaj ksiazke" onclick="_ins_form_z()"/></td>
+          <td><input type="button" value="Lista ksiazek" onclick="_list_z()"/></td>
+          <td><input type="button" value="Usuniecie kategorii" onclick="_del_list_k()"/></td>
+          <td><input type="button" value="Usuniecie ksiazki" onclick="_del_list_z()"/></td>
+          <td><input type="button" value="Modyfikacja ksiazki" onclick="_upd_list_z()"/></td>
+          </tr></table>
+       </form>
+     </div>
+     <div id="data"></div>
+     <div id="result"></div>
+     <footer>
+        &copy; Przemysław Rewiś 2022
+    </footer> 
+    </body>
+</html>
